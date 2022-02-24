@@ -13,4 +13,9 @@ const deleteFruit = (req, res) => {
   res.status(304).send('no fruit found');
 };
 
-module.exports = { getAll, deleteFruit };
+// eslint-disable-next-line no-unused-vars
+const createError = (req, res) => {
+  throw new Error('Test error');
+};
+
+module.exports = { getAll, deleteFruit, createError };
