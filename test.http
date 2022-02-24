@@ -1,7 +1,7 @@
 GET http://localhost:3000/alive
 
-###
+### get All 
 GET http://localhost:3000/fruits
 
-###
+### Delete
 DELETE http://localhost:3000/fruits/Birne
